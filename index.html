@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b0b0b">
+<meta name="description" content="Portofolio fotografi Muhammad Faiz — portrait, street, dan landscape.">
+<title>Faiz — Photography Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-noise" aria-hidden="true"></div>
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- iPhone-inspired dynamic island -->
+<nav class="island" aria-label="Navigasi utama">
+  <div class="island-shell" id="islandShell">
+    <a class="brand-mini" href="#home" aria-label="Kembali ke Home">FZ<span>.</span></a>
+    <button class="island-toggle" id="islandToggle" aria-label="Buka navigasi" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navLinks">
+      <a href="#home" data-section="home" class="active">Home</a>
+      <a href="#about" data-section="about">About</a>
+      <a href="#gallery" data-section="gallery">Gallery</a>
+      <a href="#contact" data-section="contact">Contact</a>
+    </div>
+    <span class="status-dot" aria-hidden="true"></span>
+  </div>
+</nav>
+
+<main>
+<!-- HERO -->
+<header id="home" class="hero">
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="hero-orbit orbit-a"></div>
+  <div class="hero-orbit orbit-b"></div>
+
+  <div class="container hero-inner">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-6">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span>PHOTOGRAPHER / INDONESIA</p>
+          <h1>Menangkap<br><em>yang terasa,</em><br>bukan sekadar terlihat.</h1>
+          <p class="hero-lead">Saya Muhammad Faiz. Saya menggunakan kamera untuk menyimpan momen, karakter, cahaya, dan cerita kecil yang biasanya hanya lewat sekali.</p>
+          <div class="hero-actions">
+            <a href="#gallery" class="button button-fill magnetic">Lihat karya <i class="fa-solid fa-arrow-down"></i></a>
+            <a href="#contact" class="button button-ghost magnetic">Ajak kolaborasi</a>
+          </div>
+          <div class="hero-meta">
+            <span><i class="fa-solid fa-camera"></i> Portrait</span>
+            <span><i class="fa-solid fa-road"></i> Street</span>
+            <span><i class="fa-solid fa-mountain-sun"></i> Landscape</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="portrait-stage reveal reveal-delay">
+          <div class="portrait-frame">
+            <img src="img/Faiz.jpg" alt="Potret Muhammad Faiz" class="portrait-image">
+            <div class="frame-corner corner-tl"></div><div class="frame-corner corner-tr"></div>
+            <div class="frame-corner corner-bl"></div><div class="frame-corner corner-br"></div>
+          </div>
+          <div class="orbit-label label-top"><span>01</span> EYE / LIGHT / MOMENT</div>
+          <div class="orbit-label label-bottom"><span class="tiny-dot"></span> AVAILABLE FOR COLLABORATION</div>
+          <div class="lens-badge"><i class="fa-solid fa-aperture"></i><span>F/1.8</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Scroll ke About">
+    <span>SCROLL TO EXPLORE</span><i class="fa-solid fa-arrow-down"></i>
+  </a>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="section about-section">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="eyebrow-line"></span>01 / ABOUT</p>
+      <h2>Bukan cuma<br><em>memotret.</em></h2>
+    </div>
+
+    <div class="about-layout">
+      <div class="about-story reveal">
+        <p class="lead-copy">Saya mulai memotret dari rasa penasaran sederhana: bagaimana sebuah momen yang hanya berlangsung beberapa detik bisa terasa kembali ketika dilihat bertahun-tahun kemudian.</p>
+        <p>Semenjak itu, kamera menjadi cara saya memperlambat dunia. Saya belajar memperhatikan arah cahaya, ekspresi yang tidak dibuat-buat, tekstur jalanan, ruang kosong, dan detail kecil yang sering hilang kalau kita terlalu cepat melihat.</p>
+        <p>Saya menikmati portrait yang terasa personal, street photography yang spontan, dan landscape yang memberi ruang untuk bernapas. Saya tidak mengejar foto yang sekadar terlihat “sempurna”; saya lebih tertarik pada gambar yang punya suasana dan alasan untuk diingat.</p>
+        <div class="signature"><span>— Muhammad Faiz</span><small>photographer & visual storyteller</small></div>
+      </div>
+
+      <div class="about-side reveal reveal-delay">
+        <div class="timeline-card">
+          <div class="timeline-icon"><i class="fa-solid fa-camera-retro"></i></div>
+          <div>
+            <span class="mono-label">THE BEGINNING</span>
+            <h3>Dari rasa penasaran<br>menjadi kebiasaan.</h3>
+            <p>Saya terus memotret, mencoba, gagal, mengulang, lalu menemukan cara melihat yang terasa paling personal.</p>
+          </div>
+        </div>
+        <div class="stats-grid">
+          <div><strong>03+</strong><span>tahun memotret</span></div>
+          <div><strong>50+</strong><span>sesi / proyek</span></div>
+          <div><strong>03</strong><span>genre utama</span></div>
+        </div>
+        <div class="camera-spec">
+          <div class="spec-row"><span>STYLE</span><b>Natural / Candid</b></div>
+          <div class="spec-row"><span>APPROACH</span><b>Story first</b></div>
+          <div class="spec-row"><span>MEDIUM</span><b>Digital / Film mood</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section gallery-section">
+  <div class="container">
+    <div class="section-head gallery-head reveal">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-line"></span>02 / SELECTED WORK</p>
+        <h2>Frame yang<br><em>berbicara sendiri.</em></h2>
+      </div>
+      <p class="section-note">Klik foto untuk melihat lebih dekat.<br>Gerakkan pointer untuk efek depth.</p>
+    </div>
+
+    <div class="gallery-grid">
+      <article class="photo-card photo-a reveal" data-img="img/projeck/1.jpeg" data-title="Portrait / 01" data-copy="Cahaya, ekspresi, dan ruang yang dibiarkan berbicara.">
+        <img src="img/projeck/1.jpeg" alt="Fotografi portrait karya Faiz" loading="lazy">
+        <div class="photo-info"><span>01 — PORTRAIT</span><i class="fa-solid fa-plus"></i></div>
+      </article>
+      <article class="photo-card photo-b reveal reveal-delay" data-img="img/projeck/2.jpeg" data-title="Street / 02" data-copy="Momen spontan yang ditemukan di antara gerak dan keramaian.">
+        <img src="img/projeck/2.jpeg" alt="Fotografi street karya Faiz" loading="lazy">
+        <div class="photo-info"><span>02 — STREET</span><i class="fa-solid fa-plus"></i></div>
+      </article>
+      <article class="photo-card photo-c reveal" data-img="img/projeck/3.jpeg" data-title="Landscape / 03" data-copy="Ruang, cahaya, dan ketenangan dalam satu frame.">
+        <img src="img/projeck/3.jpeg" alt="Fotografi landscape karya Faiz" loading="lazy">
+        <div class="photo-info"><span>03 — LANDSCAPE</span><i class="fa-solid fa-plus"></i></div>
+      </article>
+    </div>
+
+    <div class="film-strip reveal" aria-label="Jenis fotografi">
+      <span>PORTRAIT</span><i></i><span>STREET</span><i></i><span>LANDSCAPE</span><i></i><span>LIGHT & SHADOW</span><i></i><span>MOMENT</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section process-section">
+  <div class="container">
+    <div class="process-grid">
+      <div class="reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span>03 / PROCESS</p>
+        <h2>Pelan saat<br><em>mencari frame.</em></h2>
+      </div>
+      <div class="process-list">
+        <div class="process-item reveal"><span>01</span><div><h3>Observe</h3><p>Mencari cahaya, gesture, ruang, dan momen yang terasa natural.</p></div><i class="fa-solid fa-eye"></i></div>
+        <div class="process-item reveal"><span>02</span><div><h3>Compose</h3><p>Menyusun frame tanpa memaksa cerita keluar dari momennya.</p></div><i class="fa-solid fa-crop-simple"></i></div>
+        <div class="process-item reveal"><span>03</span><div><h3>Capture</h3><p>Menunggu sepersekian detik ketika semua elemen terasa bertemu.</p></div><i class="fa-solid fa-camera"></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact-section">
+  <div class="container">
+    <div class="contact-top reveal">
+      <p class="eyebrow light"><span class="eyebrow-line"></span>04 / CONTACT</p>
+      <h2>Punya cerita?<br><em>Mari buat frame-nya.</em></h2>
+      <p>Untuk sesi portrait, dokumentasi, kolaborasi kreatif, atau sekadar ingin ngobrol soal fotografi, kirim pesan. Saya akan membaca dan membalas secepatnya.</p>
+    </div>
+
+    <div class="contact-layout">
+      <form class="contact-form reveal" id="contactForm">
+        <div class="form-row">
+          <label>Nama<input name="name" type="text" placeholder="Nama kamu" required></label>
+          <label>Email<input name="email" type="email" placeholder="nama@gmail.com" required></label>
+        </div>
+        <label>Jenis kebutuhan<select name="type"><option>Portrait session</option><option>Dokumentasi</option><option>Creative collaboration</option><option>Project lainnya</option></select></label>
+        <label>Pesan<textarea name="message" rows="5" placeholder="Ceritakan sedikit tentang ide atau project kamu..." required></textarea></label>
+        <button class="button button-fill form-submit magnetic" type="submit">Buka Gmail & kirim <i class="fa-solid fa-paper-plane"></i></button>
+        <p class="form-hint"><i class="fa-brands fa-google"></i> Form ini akan membuka Gmail dengan pesan yang sudah terisi.</p>
+      </form>
+
+      <div class="contact-links reveal reveal-delay">
+        <p class="mono-label">DIRECT LINE</p>
+        <a class="social-link" href="https://wa.me/6283870268105" target="_blank" rel="noopener">
+          <img src="https://cdn.simpleicons.org/whatsapp/25D366" alt="" loading="lazy"><span><small>WhatsApp</small>0838-7026-8105</span><i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+        <a class="social-link" href="https://instagram.com/mfaizalbany" target="_blank" rel="noopener">
+          <img src="https://cdn.simpleicons.org/instagram/E4405F" alt="" loading="lazy"><span><small>Instagram</small>@mfaizalbany</span><i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+        <div class="contact-note"><i class="fa-solid fa-location-dot"></i><span>Indonesia<br><small>Available for selected projects & collaborations.</small></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container"><span>© <span id="year"></span> Muhammad Faiz</span><span>Made with light, patience & a camera.</span></div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Preview foto">
+  <button id="lightboxClose" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+  <div class="lightbox-inner">
+    <img id="lightboxImg" src="" alt="">
+    <div><span id="lightboxTitle"></span><p id="lightboxCopy"></p></div>
+  </div>
+</div>
+
+<script>
+(() => {
+  const year = document.getElementById('year');
+  year.textContent = new Date().getFullYear();
+
+  /* Scroll progress + navbar state */
+  const progress = document.getElementById('scrollProgress');
+  const islandShell = document.getElementById('islandShell');
+  window.addEventListener('scroll', () => {
+    const max = document.documentElement.scrollHeight - innerHeight;
+    progress.style.width = `${Math.max(0, Math.min(100, scrollY / max * 100))}%`;
+    islandShell.classList.toggle('scrolled', scrollY > 50);
+  }, {passive:true});
+
+  /* Mobile / Dynamic Island */
+  const toggle = document.getElementById('islandToggle');
+  const navLinks = document.getElementById('navLinks');
+  const closeNav = () => { islandShell.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); };
+  toggle.addEventListener('click', () => {
+    const open = islandShell.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+  document.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click', closeNav));
+
+  /* Active section */
+  const navAnchors = [...document.querySelectorAll('.nav-links a')];
+  const sectionObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting) navAnchors.forEach(a => a.classList.toggle('active', a.dataset.section === entry.target.id));
+    });
+  }, {rootMargin:'-35% 0px -55% 0px'});
+  document.querySelectorAll('header[id], section[id]').forEach(s => sectionObserver.observe(s));
+
+  /* Scroll reveals */
+  const revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting) { entry.target.classList.add('is-visible'); revealObserver.unobserve(entry.target); }
+    });
+  }, {threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+  /* Subtle 3D photo interaction */
+  document.querySelectorAll('.photo-card').forEach(card => {
+    card.addEventListener('pointermove', e => {
+      if (matchMedia('(hover: none)').matches) return;
+      const r = card.getBoundingClientRect();
+      const x = (e.clientX-r.left)/r.width-.5, y=(e.clientY-r.top)/r.height-.5;
+      card.style.setProperty('--rx', `${(-y*5).toFixed(2)}deg`);
+      card.style.setProperty('--ry', `${(x*5).toFixed(2)}deg`);
+      card.style.setProperty('--mx', `${(x*100+50).toFixed(1)}%`);
+      card.style.setProperty('--my', `${(y*100+50).toFixed(1)}%`);
+    });
+    card.addEventListener('pointerleave', () => {
+      card.style.setProperty('--rx','0deg'); card.style.setProperty('--ry','0deg');
+    });
+    card.addEventListener('click', () => openLightbox(card));
+  });
+
+  /* Lightbox */
+  const lightbox = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lightboxImg');
+  const lbTitle = document.getElementById('lightboxTitle');
+  const lbCopy = document.getElementById('lightboxCopy');
+  function openLightbox(card){
+    lbImg.src=card.dataset.img; lbImg.alt=card.dataset.title; lbTitle.textContent=card.dataset.title; lbCopy.textContent=card.dataset.copy;
+    lightbox.classList.add('open'); document.body.classList.add('no-scroll');
+  }
+  function closeLightbox(){ lightbox.classList.remove('open'); document.body.classList.remove('no-scroll'); }
+  document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', e => { if(e.target===lightbox) closeLightbox(); });
+  document.addEventListener('keydown', e => { if(e.key==='Escape') { closeLightbox(); closeNav(); } });
+
+  /* Gmail composer — replace the address below with the owner's Gmail */
+  const GMAIL = 'YOUR_GMAIL_ADDRESS@gmail.com';
+  document.getElementById('contactForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const f = new FormData(e.currentTarget);
+    const subject = encodeURIComponent(`Project inquiry — ${f.get('type')}`);
+    const body = encodeURIComponent(`Halo Faiz,\n\nNama: ${f.get('name')}\nEmail: ${f.get('email')}\nKebutuhan: ${f.get('type')}\n\nPesan:\n${f.get('message')}\n\n— dikirim dari portfolio Faiz`);
+    window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${GMAIL}&su=${subject}&body=${body}`;
+  });
+
+  /* Custom pointer */
+  const dot=document.getElementById('cursorDot'), ring=document.getElementById('cursorRing');
+  if(matchMedia('(pointer:fine)').matches){
+    window.addEventListener('pointermove', e => {
+      dot.style.transform=`translate3d(${e.clientX}px,${e.clientY}px,0)`;
+      ring.style.transform=`translate3d(${e.clientX}px,${e.clientY}px,0)`;
+    }, {passive:true});
+    document.querySelectorAll('a,button,.photo-card,.social-link').forEach(el=>{
+      el.addEventListener('mouseenter',()=>document.body.classList.add('cursor-hover'));
+      el.addEventListener('mouseleave',()=>document.body.classList.remove('cursor-hover'));
+    });
+  } else { dot.remove(); ring.remove(); }
+
+  /* Magnetic buttons — deliberately subtle */
+  document.querySelectorAll('.magnetic').forEach(el => {
+    el.addEventListener('pointermove', e => {
+      if(matchMedia('(hover:none)').matches) return;
+      const r=el.getBoundingClientRect(), x=e.clientX-r.left-r.width/2, y=e.clientY-r.top-r.height/2;
+      el.style.transform=`translate(${x*.08}px,${y*.08}px)`;
+    });
+    el.addEventListener('pointerleave',()=>el.style.transform='');
+  });
+})();
+</script>
+</body>
+</html>
